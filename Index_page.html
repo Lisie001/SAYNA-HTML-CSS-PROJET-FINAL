@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAYNA-HTML-CSS-PROJET-FINAL</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="bg-danger d-flex ">
+        <nav class="navbar container-fluid">
+            <div class="align-item-left">
+                <a class="text-left text-decoration-none text-light fs-3 fw-bold px-3"><img src="Assets/Images/group-2.svg " width="70"><a href="http://127.0.0.1:5502/Index_page.html" class="text-decoration-none text-light fs-3 fw-bold">[Events]</a></a>
+            </div>
+            <!-- Insertion barre de recherche -->
+            <input class="form-control" id="SearchQuery" placeholder="Type to search..." style="max-width: 600px;">
+            <!-- Insertion icones alignement droite -->
+            <div class="align-item-center d-inline p-2">
+                <a class="text-center text-decoration-none text-light fs-6 fw-normal px-4"><img src="Assets/Icones/search_icon.svg" width="20" style="filter: invert(1);"><a href="http://127.0.0.1:5502/Search_page.html" class="text-decoration-none text-light fs-6 fw-normal">Search</a></a>
+                <a class="text-center text-decoration-none text-light fs-6 fw-normal px-4"><img src="Assets/Icones/about_icon.svg" width="20" style="filter: invert(1);"><a href="http://127.0.0.1:5502/Search_page.html" class="text-decoration-none text-light fs-6 fw-normal">About</a></a>
+                <a class="text-center text-decoration-none text-light fs-6 fw-normal px-4"><img src="Assets/Icones/blog_icon.svg" width="20" style="filter: invert(1);">Blog</a>
+                <a class="text-center text-decoration-none text-light fs-6 fw-normal px-4"><img src="Assets/Icones/more_icon.svg" width="20" style="filter: invert(1);">More</a>
+            </div>
+
+        </nav>
+    </div>
+    <!-- insertion image background -->
+    <div class="py-5" style="background-image: url(./Assets/Images/group-1.jpg);" style="width: 20%; height: auto;"> 
+        <div class="justify-content-center align-items-center">
+            <p class="text-center text-decoration-none text-light fs-5 fw-bold px-3">[EVENTS]... YOUR GATEWAY TO CONNECT WITH EVENTS AROUND YOUR AREA</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class=" col-4 p-2 m-2 bg-light border text-center fs-6">SEARCH EVENTS NEARBY
+                <div class="px-6">
+                    <p class="text-light text-center fs-5 fw-bold">Subscribe</p>
+                    <form action="vide"method=post>
+                    <input type="email" placeholder="Insert your location here" class="bg-light text-dark">
+                    <button type="button" class="btn btn-danger">Search</button>
+                </div>
+            </div>
+        </div>
+        <!-- positionnement bouton -->
+        <div class=" d-flex justify-content-center align-items-center">
+            <button type="button" class="btn btn-light ">How it works</button>
+        </div>
+    </div>
+    <div class="py-5">
+        <p class="text-danger  text-center fs-5 fw-bold">[Events] works in four simple steps</p>
+        <div class="d-flex py-5 px-4">
+            <div >
+                <div>
+                    <div class="m-o position-relative" style="left: 320px;"><img src="Assets/Icones/search_icon.svg" width="30"></div>
+                    <p class="fs-6 fw-bold text-center">1-Locate:</p>
+                    <p class="fs-6 text-center">It's simple, on [Events] homepage, enter the name of the location you want to spend some good quality time with people <br> and click on search</p>
+                </div>
+               <div>
+                   <div class="m-o position-relative" style="left: 320px;"><img src="Assets/Icones/go_icon.svg" width="30"></div>
+                   <p class="fs-6 fw-bold text-center">3-Go!</p>
+                   <p class="fs-6 text-center">Select the [Events], wait for the scheduled day and go! Be prepared to meet new people, create new connection and have a <br> great time</p>
+               </div>
+            </div>
+            <div >
+                <div>
+                    <div class="m-o position-relative" style="left: 320px;"><img src="Assets/Icones/confirm_icon.svg" width="30"></div>
+                    <p class="fs-6 fw-bold text-center">2-Confirm or create:</p>
+                    <p class="fs-6 text-center">Go to check the events nearby the location you searched for and apply for any [Events] available. Every [gathering] has a<br> subject, that you can search for too! If no [events] are available on the location, you selected you can create and sahre your <br>event.</p>
+                </div>
+                <div>
+                    <div class="m-0 position-relative" style="left: 320px;"><img src="Assets/Icones/haveagoodtime_icon.svg" width="30"></div>
+                    <p class="fs-6 fw-bold text-center">4-Have a good time:</p>
+                    <p class="fs-6 text-center">Once you are at the the [Events] location, look for the host, enjoy and have fun</p>
+                </div>
+           </div>
+        </div>
+    </div>
+    <div class="d-flex bg-danger py-5">
+        <div>
+            <p class="text-light  text-left fs-6 fw-bold px-4">[Events] near you</p>
+            <p class="text-light  text-left fs-6 fw-normal px-4">Every month a new you might find [Events] near you and enjoy the company with people whom you can share mutual interests</p>
+            <div class="px-4">
+                <a href="http://127.0.0.1:5502/Search_page.html"><button type="button" class="btn btn-light text-danger rounded-0 " style="left: 185px;">Find a [Events]</button></a>
+            </div>
+        </div>
+        <div class="m-0 position-relative" style="left: 200px;">
+            <img src="Assets/Images/group-2.jpg" width="150" height="150" class="rounded-circle">
+        </div>
+    </div>
+    <div class="d-flex bg-secondary py-5">
+        <div>
+            <p class="text-light  text-left fs-6 fw-bold px-4">[Events] connecting you</p>
+            <p class="text-light  text-left fs-6 fw-normal px-4">You can create [Events] events around your area and share them with people you know and with whoever wants to connects</p>
+            <div class="px-4">
+                <a href="http://127.0.0.1:5502/Search_page.html"><button type="button" class="btn btn-light text-secondary rounded-0 " style="left: 185px;">Learn more about [Events]</button></a>
+            </div>
+        </div>
+        <div class="m-0 position-relative" style="left: 230px;">
+            <img src="Assets/Images/group-4.jpg" width="150" height="150" class="rounded-circle">
+        </div>
+    </div>
+    <div class="d-flex bg-primary py-5">
+        <div>
+            <p class="text-light  text-left fs-6 fw-bold px-4">[Events] connecting you</p>
+            <p class="text-light  text-left fs-6 fw-normal px-4">You can create [Events] events around your area and share them with people you know and with whoever wants to connects</p>
+        </div>
+        <div class="m-0 position-relative" style="left: 230px;">
+            <img src="Assets/Images/group-3.jpg" width="150" height="150" class="rounded-circle">
+        </div>
+    </div>
+    <section class="bg-black d-flex justify-content-center align-items-center py-3">
+        <div class="px-4">
+            <div class="px-4">
+                <!-- mise en  forme border top et bottom pour les ecritures specifiques-->
+                <a class="text-center text-decoration-none text-light fs-5 fw-bold px-3"><span class="border-top border-bottom"><a href="http://127.0.0.1:5502/Index_page.html" class="text-center text-decoration-none text-light fs-5 fw-bold px-3 border-top border-bottom">HOME</a><a href="http://127.0.0.1:5502/Search_page.html" class="text-center text-decoration-none text-light fs-5 fw-bold px-3 border-top border-bottom">SEARCH</a><a href="http://127.0.0.1:5502/About_page.html" class="text-center text-decoration-none text-light fs-5 fw-bold px-3 border-top border-bottom">ABOUT US</a><a href="http://127.0.0.1:5502/Index_page.html" class="text-center text-decoration-none text-light fs-5 fw-bold px-3 border-top border-bottom">ADVERTISE</a></span> </a><span class="border border-secondary border border-3 rounded-circle h-100 d-inline-block"><img src="Assets/Icones/mapsnavbar_icon.svg" width="90" style="filter: invert(1);"></span><a class="text-center text-decoration-none text-light fs-5 fw-bold px-3"><span class="border-top border-bottom"><a href="http://127.0.0.1:5502/Index_page.html" class="text-center text-decoration-none text-light fs-5 fw-bold px-3 border-top border-bottom">FACEBOOK</a><a href="http://127.0.0.1:5502/Index_page.html" class="text-center text-decoration-none text-light fs-5 fw-bold px-3 border-top border-bottom">TWITTER</a><a href="http://127.0.0.1:5502/Index_page.html" class="text-center text-decoration-none text-light fs-5 fw-bold px-3 border-top border-bottom">INSTAGRAM</a><a href="http://127.0.0.1:5502/Index_page.html" class="text-center text-decoration-none text-light fs-5 fw-bold px-3 border-top border-bottom">BLOG</a></span></a></a> 
+            </div>
+            <div class="d-flex p-2">
+                <div class="px-4">
+                    <p class="text-light text-center fs-5 fw-bold">Subscribe</p>
+                    <form action="vide"method=post>
+                    <input type="email" placeholder="Insert your e-mail here" class="bg-black text-light">
+                    <button type="button" class="btn btn-secondary fw-bold">Send</button>
+                </div>
+                <div class="px-4">
+                    <p class="text-light  text-center fs-5 fw-bold">Contact</p> 
+                    <p class="text-center text-light fs-6 ">Have a question or suggestion?</p>
+                    <p class="text-center text-danger fs-6 ">contact@event.com</p>
+                 </div>
+                 <div class="px-4">
+                    <p class="text-light  text-center fs-5 fw-bold">About</p> 
+                    <p class="text-center text-light fs-6 ">[Events] is an online plaform thet works to improve and increase <br> social life connections, when this nightmare that we are curently <br> living is over <span class="text-danger fs-6"><a href="http://127.0.0.1:5502/About_page.html" class="text-danger" >learn more.</a></span></p>
+                 </div>
+            </div>
+        </div>
+    </section>
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
+</body>
+<footer class="d-flex bg-secondary justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+        <img src="Assets/Icones/facebook_icon.svg" width="35" class="px-2" style="filter: invert(1);">
+        <img src="Assets/Icones/twitter_icon.svg" width="35" class="px-2" style="filter: invert(1);">
+        <img src="Assets/Icones/instagram_icon.svg" width="35" class="px-2" style="filter: invert(1);">
+        <img src="Assets/Icones/tumblr_icon.svg" width="35" class="px-2" style="filter: invert(1);">
+        <img src="Assets/Icones/linkedin_icon.svg" width="35" class="px-2" style="filter: invert(1);">
+    </div>
+        <p class="text-right text-light fs-6 "> &copy;2020 [Event], Inc.All rights reserved </p>
+    </div> 
+</footer>
+</html>
